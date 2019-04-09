@@ -6,6 +6,9 @@ What is the absolute minimum that data editors and readers interested in replica
 ### Citation
 ### Description
 ### Manifest
+#### Output
+- where is your output
+- how do they map to those in the paper
 ### Computing environment
 #### Hardware
 #### Operating System
@@ -16,6 +19,7 @@ What is the absolute minimum that data editors and readers interested in replica
   - license info
 ### Running instructions
 - entry point
+- where to put missing inputs
 - run time
 ### License
 ## Format
