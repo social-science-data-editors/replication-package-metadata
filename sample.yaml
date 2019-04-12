@@ -1,0 +1,36 @@
+bibliographicCitation: Alvarez, Fernando and Lucas, Robert Jr. 2017. "Replication Package for: General equilibrium analysis of the Eaton-Kortum model of international trade," Journal of Monetary Economics, vol. 54(6), pages 1726-1768, September.
+creator: 
+    - Alvarez, Fernando
+    - Lucas, Robert Jr.
+date: 2007
+title: "Replication Package for: General equilibrium analysis of the Eaton-Kortum model of international trade" 
+source: Journal of Monetary Economics, vol. 54(6), pages 1726-1768, September.
+description: This package replicates all tables and figures in Alvarez, Fernando & Lucas, Robert Jr., 2007. "General equilibrium analysis of the Eaton-Kortum model of international trade," Journal of Monetary Economics, vol. 54(6), pages 1726-1768, September. 
+identifier: https://doi.org/10.5281/zenodo.2622381
+license: ttps://creativecommons.org/licenses/by/4.0/
+output_hasPart:
+    -   identifier: output/figure/figure1.pdf
+        type: image
+        isFormatOf: Figure 1
+    -   identifier: output/table/table1.xlsx
+        isFormatOf: Table 1
+run_requires:
+    -   title: PC with Intel i5, 4GB of RAM
+        type: PhysicalResource
+    -   title: Ubuntu 2004 LTS
+        type: Software
+    -   title: Matlab R2006a
+        type: Software
+    -   title: Matlab optimization toolbox
+        type: Software
+    -   title: World Development Indicators
+        type: Dataset
+        date: 2005
+        identifier: http://datatopics.worldbank.org/world-development-indicators/
+        hasFormat: input/wdi/wdi2005.xlsx
+run_start:
+    -   identifier: create_all_exhibits.m
+        type: Software
+        extent: 16 hours
+    -   identifier: analysis_code/matlab
+        type: Collection
